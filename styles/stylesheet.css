@@ -29,11 +29,13 @@ body{
     background-color: rgb(231,158,166);
     height: 1.8rem;
     bottom: 0;
+    
 }
+
 .footicon{
     max-width:fit-content;
     
-  }
+}
 
 nav{
     background-color: rgb(231,158,166);
