@@ -215,6 +215,10 @@ a:active {
     }
 .reviewbobapicture{
     width: 40%;
+    float: right;
+}
+.mapreview{
+    padding-left: 80px;
 }
 /* end review page styles */
 
