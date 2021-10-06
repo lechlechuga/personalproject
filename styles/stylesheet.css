@@ -173,7 +173,7 @@ a:active {
     width: 300px;
     height: 20px;
     border: 0;
-    border-radius: 3px;
+    border-radius: 5px;
     margin: 0 0 10px 0;
     padding: 12px 10px;
     background: #fff;
@@ -186,9 +186,10 @@ a:active {
     background-color: white;
     /* border:2px solid rgb(201,84,96); */
     border-radius: 5px;
+    overflow-y:auto;
 }
   
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
@@ -199,7 +200,7 @@ a:active {
     border: 20px;
     padding-left: 186px;
 }
-.blogposthome{
+.blogpost{
     text-align: center;
     color: rgb(201,84,96);
 }
@@ -209,45 +210,12 @@ a:active {
 
 
 /* start reviews page styles */
-    .blogleft{
-        background-color: white;
-        /* border:2px solid rgb(201,84,96); */
-        border-radius: 5px;
-        text-align: center;
-        width: 43%;
-        /* float: left; */
-        margin-top: 20px;
-        margin-bottom: 70px;
-        overflow-y:auto;
+.blogimage{
+     padding-bottom: 38px;
     }
- /*    .blogright
-        background-color: white;
-        /* border:2px solid rgb(201,84,96); */
-        /* border-radius: 5px;
-        width: 44%;
-        float: right;
-        margin-top: 20px;
-        text-align: center;
-        padding-bottom: 75px; */
-     */
-
-    .blogleft2{
-        float: right;
-        margin-right: 7.8rem;
-    }
-
-    .blogrow::after{
-    content: "";
-    display: table;
-    clear: both
-    }
-
-    .blogimage{
-        padding-bottom: 38px;
-    }
-    .reviewbobapicture{
-        width: 40%;
-    }
+.reviewbobapicture{
+    width: 40%;
+}
 /* end review page styles */
 
 
